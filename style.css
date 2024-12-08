@@ -1,0 +1,143 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c101c;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.wallet-btn {
+    background-color: #2b82f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.start-btn {
+    background-color: #3ae374;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.stats .circle {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.objecttt{
+    position: relative;
+    margin-top: 30px;
+}
+.bid-tag {
+    background-color: #2b82f6;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.categories button {
+    background-color: #1e2737;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: #27e292;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.web3-info {
+    text-align: center;
+}
+
+.web3-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
